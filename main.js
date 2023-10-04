@@ -155,7 +155,6 @@ let array = [1, 2, 3, 4, 5, 6];
 
 function shiftN(array, n) {
   let temp = array[0];
-  let temp2 = array[1];
   let length = array.length;
   n = n % length;
   console.log(n)
